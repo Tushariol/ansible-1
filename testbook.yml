@@ -1,6 +1,6 @@
 ---
 - name: testbook
-  hosts: 54.67.20.93
+  hosts: all
   tasks: 
   - name: task-1
     debug:
