@@ -1,0 +1,7 @@
+---
+- name: testbook
+  hosts: all
+  tasks: 
+  - name: task-1
+    debug:
+      msg: "Hello world my name is linux"
